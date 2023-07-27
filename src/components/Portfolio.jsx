@@ -83,7 +83,12 @@ const Portfolio = () => {
                     ))
                 }
             </div> 
-            
+            {/*<div className="flex justify-center mt-16">
+                <div className="border-t-2 border-b-2 py-2">
+                    <p>To View an archive of my work click Here</p>
+                </div>
+            </div>
+            */}
         </div>
     </div>
   )
