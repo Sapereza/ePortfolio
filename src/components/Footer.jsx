@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {FaGithub, FaLinkedin, FaCodepen} from 'react-icons/fa';
 import {HiOutlineMailOpen} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
@@ -81,7 +81,7 @@ const Footer = () => {
     <div name="footer" className="w-full h-28 bg-gradient-to-b from-rose-400 to-red-500 text-white">
         <div>
             <div className="md:hidden flex justify-between px-6">
-                {links.map(({id, child, href, style, download}) =>
+                {links.map(({id, child, href, download}) =>
                 ( 
 
                     <div key={id}>

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {FaGithub, FaLinkedin, FaCodepen} from 'react-icons/fa';
 import {HiOutlineMailOpen} from 'react-icons/hi';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
