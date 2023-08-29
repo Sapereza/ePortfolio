@@ -8,7 +8,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-import Spacing from "./components/Spacing";
+import Spacing from "./components/spacing";
 import Spacing2 from "./components/Spacing2";
 
 function App() {
