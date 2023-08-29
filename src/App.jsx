@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 import Spacing from "./components/spacing";
-import Spacing2 from "./components/Spacing2";
+import Spacing2 from "./components/spacing2";
 
 function App() {
 
