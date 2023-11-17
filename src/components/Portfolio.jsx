@@ -13,7 +13,7 @@ const Portfolio = () => {
             id: 1,
             src: ComingSoon,
             name: 'Instant Chat App',
-            demo: 'https://sarah-portfolio-alpha.vercel.app/',
+            demo: 'https://instant-chat-azure.vercel.app/',
             code: 'https://github.com/Sapereza/sarah-portfolio',
             
         },
