@@ -42,14 +42,14 @@ const Experience = () => {
       id: 5,
       src: javascript,
       title: 'JavaScript',
-      text: '50%',
+      text: '70%',
       style: 'shadow-yellow-500'
     },
     {
       id: 6,
       src: reactImage,
       title: 'React',
-      text: '50%',
+      text: '70%',
       style: 'shadow-blue-600'
     },
   ]
