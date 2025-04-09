@@ -26,14 +26,14 @@ const About = () => {
     {
       id: 2,
       src: visual1,
-      title: 'Two',
+      title: 'Experience',
       style: 'shadow-lime-600',
       text: <AboutSectionTwo />,
     },
     {
       id: 3,
       src: visual1,
-      title: 'Three',
+      title: 'Background',
       style: 'shadow-lime-600',
       text: <AboutSectionThree />,
     },
