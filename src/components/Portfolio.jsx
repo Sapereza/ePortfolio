@@ -9,21 +9,21 @@ const projects = [
   {
     id: 1,
     title: 'Currency Converter',
-    image: '/projects/project1.jpg',
+    image: 'src/assets/ccpic.jpeg',
     projectLink: 'https://currency-converter-nine-pied.vercel.app/', // Link to the live project
     codeLink: 'https://github.com/Sapereza/currencyConverter/blob/master/src/components/Converter.jsx', // Link to the project code
   },
   {
     id: 2,
     title: 'Calculator',
-    image: '/projects/project2.jpg',
+    image: '/src/assets/calculator1.jpeg',
     projectLink: 'https://calculator-eta-dusky.vercel.app/',
     codeLink: 'https://github.com/Sapereza/calculator/blob/master/src/Components/Calculator.jsx',
   },
   {
     id: 3,
     title: 'Dictionary',
-    image: '/projects/project3.jpg',
+    image: '/src/assets/Dictionary.jpeg',
     projectLink: 'https://dictionary-aqli.vercel.app/',
     codeLink: 'https://github.com/Sapereza/dictionary/blob/master/src/components/dictionary.jsx',
   },
