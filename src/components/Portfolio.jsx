@@ -3,27 +3,30 @@ import useIntersectionObserver from '../hooks/useIntersectionObserver';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import DictionaryImg from '../assets/Dictionary.png';
+import CurrencyImg from '../assets/ccpic.png';
+import CalculatorImg from '../assets/calculator1.png';
 
 // Example project data
 const projects = [
   {
     id: 1,
     title: 'Currency Converter',
-    image: 'src/assets/ccpic.png',
+    image: CurrencyImg,
     projectLink: 'https://currency-converter-nine-pied.vercel.app/', // Link to the live project
     codeLink: 'https://github.com/Sapereza/currencyConverter/blob/master/src/components/Converter.jsx', // Link to the project code
   },
   {
     id: 2,
     title: 'Calculator',
-    image: '/src/assets/calculator1.png',
+    image: CalculatorImg,
     projectLink: 'https://calculator-eta-dusky.vercel.app/',
     codeLink: 'https://github.com/Sapereza/calculator/blob/master/src/Components/Calculator.jsx',
   },
   {
     id: 3,
     title: 'Dictionary',
-    image: '/src/assets/Dictionary.png',
+    image: DictionaryImg,
     projectLink: 'https://dictionary-aqli.vercel.app/',
     codeLink: 'https://github.com/Sapereza/dictionary/blob/master/src/components/dictionary.jsx',
   },
