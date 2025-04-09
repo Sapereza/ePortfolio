@@ -4,7 +4,7 @@ const AboutSectionOne = () => {
   return (
     <div>
         <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus repellendus soluta debitis voluptates earum reprehenderit facere aspernatur nulla eos mollitia vero, qui, commodi iure, cumque accusantium voluptate corporis tempore voluptatum!
+           My certification badges will be displayed here soon. For now click my LinkedIn link on the left to view the badges on my profile.
         </p>
     </div>
   )
