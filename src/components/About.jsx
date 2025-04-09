@@ -19,7 +19,7 @@ const About = () => {
     {
       id: 1,
       src: visual1,
-      title: 'One',
+      title: 'Certifications',
       style: 'shadow-lime-600',
       text: <AboutSectionOne />,
     },

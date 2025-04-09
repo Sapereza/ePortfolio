@@ -8,24 +8,24 @@ import 'slick-carousel/slick/slick-theme.css';
 const projects = [
   {
     id: 1,
-    title: 'Project One',
+    title: 'Currency Converter',
     image: '/projects/project1.jpg',
-    projectLink: 'https://example.com/project1', // Link to the live project
-    codeLink: 'https://github.com/example/project1', // Link to the project code
+    projectLink: 'https://currency-converter-nine-pied.vercel.app/', // Link to the live project
+    codeLink: 'https://github.com/Sapereza/currencyConverter/blob/master/src/components/Converter.jsx', // Link to the project code
   },
   {
     id: 2,
-    title: 'Project Two',
+    title: 'Calculator',
     image: '/projects/project2.jpg',
-    projectLink: 'https://example.com/project2',
-    codeLink: 'https://github.com/example/project2',
+    projectLink: 'https://calculator-eta-dusky.vercel.app/',
+    codeLink: 'https://github.com/Sapereza/calculator/blob/master/src/Components/Calculator.jsx',
   },
   {
     id: 3,
-    title: 'Project Three',
+    title: 'Dictionary',
     image: '/projects/project3.jpg',
-    projectLink: 'https://example.com/project3',
-    codeLink: 'https://github.com/example/project3',
+    projectLink: 'https://dictionary-aqli.vercel.app/',
+    codeLink: 'https://github.com/Sapereza/dictionary/blob/master/src/components/dictionary.jsx',
   },
 ];
 
