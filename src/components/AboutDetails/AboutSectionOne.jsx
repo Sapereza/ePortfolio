@@ -4,7 +4,7 @@ const AboutSectionOne = () => {
   return (
     <div>
         <p>
-           My certification badges will be displayed here soon. For now click my LinkedIn link on the left to view the badges on my profile(Links viewable on large screens and desktop at the moment). 
+           My certification badges will be displayed here soon. For now click my LinkedIn link on the left, for mobile the link is on the bottom, to view the badges on my profile. 
         </p>
     </div>
   )
