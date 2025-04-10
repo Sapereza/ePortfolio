@@ -1,12 +1,24 @@
-import React from 'react'
+import React from 'react';
+import LogoReact from '/src/assets/react.png';
+import LogoTailWind from '/src/assets/tailwind.png';
+import LogoJavascript from '/src/assets/javascript.png';
 
 const AboutSectionTwo = () => {
   return (
+    //Needs work with presentation design of images.
     <div>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint quasi cumque, quam quo culpa, nobis suscipit accusamus fuga cupiditate est animi quia nemo excepturi laboriosam, atque nulla natus earum ex.
-        </p>
-    </div>
+            <div className='flex items-center space-x-6'>
+              <img src={LogoReact} className='w-32 h-32 hover:scale-110 duration-500'>
+              </img>
+    
+              <img src={LogoTailWind} className='w-32 h-32 hover:scale-110 duration-500'> 
+              </img>
+
+              <img src={LogoJavascript} className='w-32 h-32 hover:scale-110 duration-500'> 
+              </img>
+              
+            </div>
+        </div>
   )
 }
 
