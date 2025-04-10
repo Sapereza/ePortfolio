@@ -66,7 +66,7 @@ const Home = () => {
             </span>
           </h1>
           <p className="text-black pb-4 max-w-md my-4">
-           Welcome! this e-Portfolio was created using Vite, React, and TailwindCSS. (Edits are currently being made, but the links to my projects in my portfolio are active.)
+           Welcome! This e-Portfolio was created using Vite, React, and TailwindCSS. (Edits are currently being made, but the links to my projects in my portfolio are active.)
           </p>
           <div className="relative z-0">
             <Link
