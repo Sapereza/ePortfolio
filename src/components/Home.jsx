@@ -11,8 +11,8 @@ const Home = () => {
 
   const sectionTitle =
     isVisible[0]
-      ? "text-xl md:text-3xl font-bold mb-4 whitespace-nowrap mt-28 md:mt-36 animate-fade-in-scale"
-      : "text-xl md:text-3xl font-medium mb-4 whitespace-nowrap mt-28 md:mt-36 animate-fade-out-scale";
+      ? "text-2xl md:text-5xl font-bold mb-4 whitespace-nowrap mt-28 md:mt-36 animate-fade-in-scale"
+      : "text-2xl md:text-5xl font-medium mb-4 whitespace-nowrap mt-28 md:mt-36 animate-fade-out-scale";
 
   const toRotate = useMemo(() => ["Front End Dev", "Designer", "Creator", "Streamer"], []);
   const [loopNum, setLoopNum] = useState(0);
@@ -65,8 +65,8 @@ const Home = () => {
               {text}
             </span>
           </h1>
-          <p className="text-black pb-4 max-w-md my-4">
-           Welcome! This e-Portfolio was created using Vite, React, and TailwindCSS. (Edits are currently being made, but the links to my projects in my portfolio are active.)
+          <p className="text-black text-lg md:text-xl pb-4 max-w-md my-4">
+           Welcome! This e-Portfolio was created using Vite, React, and TailwindCSS. <i>(Edits are currently being made, but the links to my projects in my portfolio are active.)</i>
           </p>
           <div className="relative z-0">
             <Link
