@@ -18,7 +18,7 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Calculator',
+    title: 'Calculator (Desktop Only)',
     image: CalculatorImg,
     projectLink: 'https://calculator-eta-dusky.vercel.app/',
     codeLink: 'https://github.com/Sapereza/calculator/blob/master/src/Components/Calculator.jsx',
