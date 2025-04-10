@@ -118,7 +118,7 @@ const SocialLinks = () => {
       {/* Floating Button (FAB) */}
       {!isAtBottom && (
         <button
-          className="lg:hidden fixed bottom-6 right-6 z-50 bg-stone-600 text-white p-3 rounded-full shadow-lg transition-transform hover:scale-105 focus:outline-none"
+          className="lg:hidden fixed bottom-18 right-4 z-50 bg-stone-600 text-white p-3 rounded-full shadow-lg transition-transform hover:scale-105 focus:outline-none"
           onClick={() => setIsExpanded((prev) => !prev)} // Toggle the menu open/close
         >
           {isExpanded ? <IoClose size={20} /> : <BsThreeDotsVertical size={20} />}
