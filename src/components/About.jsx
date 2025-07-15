@@ -65,14 +65,12 @@ const About = () => {
               <div
                 key={id}
                 ref={sectionRefs[index]}
-                className={`shadow-md hover:scale-105 duration-500 py-6 md:py-10 my-6 md:my-8 rounded-lg w-full flex flex-col ${style} ${sectionTitleClasses[index]}`}
-              >
+                className={`shadow-md hover:scale-105 duration-500 py-6 md:py-10 my-6 md:my-8 rounded-lg w-full flex flex-col ${style} ${sectionTitleClasses[index]}`}>
                 <div className="flex items-center pl-4">
                   <img
                     src={src}
                     alt=""
-                    className="w-16 md:w-24 h-16 md:h-24 rounded-full mr-6"
-                  />
+                    className="w-16 md:w-24 h-16 md:h-24 rounded-full mr-6"/>
                   <h2 className="mt-4 text-lg md:text-2xl font-signature font-bold">
                     {title}
                   </h2>
