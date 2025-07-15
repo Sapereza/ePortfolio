@@ -54,8 +54,7 @@ const Home = () => {
     <div
       ref={homeRef}
       name="home"
-      className="h-screen w-full bg-slate-100"
-    >
+      className="h-screen w-full bg-slate-100">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-between h-full px-4 md:flex-row md:space-x-28">
         <div className="flex flex-col justify-center h-full">
           <h1 className={`text-5xl md:text-6xl text-black font-bold mb-4 whitespace-nowrap mt-36 ${sectionTitle}`}>
@@ -69,12 +68,12 @@ const Home = () => {
            Welcome! This e-Portfolio was created using Vite, React, and TailwindCSS. <i>(Edits are currently being made, but the links to my projects in my portfolio are active.)</i>
           </p>
           <div className="relative z-0">
+            // DO AN EDIT HERE
             <Link
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-8 flex items-center rounded-md bg-lime-600 shadow-md shadow-lime-600 cursor-pointer hover:scale-110 hover:shadow-lg hover:shadow-lime-500/60 transition-transform duration-300"
-            >
+              className="group text-white w-fit px-6 py-3 my-8 flex items-center rounded-md bg-lime-600 shadow-md shadow-lime-600 cursor-pointer hover:scale-110 hover:shadow-lg hover:shadow-lime-500/60 transition-transform duration-300">
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
@@ -87,8 +86,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-full mx-auto w-2/3 md:w-full shadow-md shadow-lime-600 hover:shadow-lg hover:shadow-lime-500/60 hover:scale-105 transition-transform duration-300"
-          />
+            className="rounded-full mx-auto w-2/3 md:w-full shadow-md shadow-lime-600 hover:shadow-lg hover:shadow-lime-500/60 hover:scale-105 transition-transform duration-300"/>
         </div>
       </div>
     </div>
