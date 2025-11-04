@@ -68,7 +68,7 @@ const Home = () => {
            Welcome! This e-Portfolio was created using Vite, React, and TailwindCSS. <i>(Edits are currently being made, but the links to my projects in my portfolio are active.)</i>
           </p>
           <div className="relative z-0">
-            // DO AN EDIT HERE
+          
             <Link
               to="portfolio"
               smooth
